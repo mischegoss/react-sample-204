@@ -12,6 +12,8 @@ function ContactForm() {
     function handleChange(e) {
     
       if (e.target.name === 'email') {
+
+        // This is modified because I didn't import the validate helper
         const isValid = false;
         console.log(isValid);
         if (!isValid) {
